@@ -59,12 +59,12 @@ staticDir = ['static']
   images = [""]
 
 [taxonomies]
-  category = "blog"
+  category = "log"
   tag      = "tags"
   series   = "series"
   logs = "logs"
 [[menu.main]]
-  identifier = "blog"
+  identifier = "log"
   name       = ">$ cd /log"
   url        = "/logs"
 [menu]
