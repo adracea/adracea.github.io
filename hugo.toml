@@ -47,7 +47,7 @@ staticDir = ['static']
     url  = "https://www.linkedin.com/in/alexandru-marin-dracea-910b51122/"
   # Metadata mostly used in document's head
   description = "Welcome to my personal homepage!"
-  keywords = "homepage, blog"
+  keywords = "homepage, log"
   [params.logo]
     logoMark     = ">"
     logoText     = "$ cd ~"
