@@ -2,6 +2,9 @@ baseUrl = "https://adracea.github.io/"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 title = "drakkarson@home"
+
+enableGitInfo   = false
+enableEmoji     = true
 staticDir = ['static']
 [author]
   name = "Alexandru Dracea"
@@ -23,8 +26,8 @@ staticDir = ['static']
   #   logoMark     = ">"
   #   logoText     = "$ cd /home/"
   #   logoHomeLink = "/"
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  # Set disableReadOtherLogs to true in order to hide the links to other logs.
+  disableReadOtherLogs = false
   enableThemeToggle = true
   # Enable sharing buttons, if you like
   enableSharingButtons = true
@@ -59,17 +62,19 @@ staticDir = ['static']
   category = "blog"
   tag      = "tags"
   series   = "series"
+  logs = "logs"
 [[menu.main]]
   identifier = "blog"
   name       = ">$ cd /blog"
-  url        = "/posts"
+  url        = "/logs"
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = ">$ file drakkarson"
-    url        = "about/"
+    url        = "/about/"
 [module]
   # this is needed when you fetch the theme as a submodule to your repo.
   # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
 [[module.imports]]
   path = 'github.com/adracea/hugo-theme-hello-friend-ng'
+  
