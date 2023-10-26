@@ -6,6 +6,7 @@ googleAnalytics = 'G-Y3S54PW700'
 enableGitInfo   = false
 enableEmoji     = true
 staticDir = ['static']
+# justifyContent = false 
 [author]
   name = "Alexandru Dracea"
 [params]
@@ -32,7 +33,7 @@ staticDir = ['static']
   # Enable sharing buttons, if you like
   enableSharingButtons = true
   # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
   themeColor = "orange"
   [params.portrait]
     path     = "https://avatars.githubusercontent.com/u/6214663?v=4"
@@ -49,9 +50,17 @@ staticDir = ['static']
   description = "Welcome to my personal homepage!"
   keywords = "homepage, log"
   [params.logo]
-    logoMark     = ">"
-    logoText     = "$ cd ~"
-    logoHomeLink = "/"
+    logoMark     = "⚡"
+    logoText2     = "$"
+    logoText     = "admin@drakkarson.com>/drakkarson/home/"
+    logoHomeLink = "/" 
+    logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    logoCursorColor    = "#cf3d04"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    logoCursorAnimate  = "2s"
+    # Append the current url pathname to logoText 
+    logoCursorPathname = true
   [params.favicon.color]
     mask = "#1b1c1d"
     msapplication = "#1b1c1d"
@@ -63,15 +72,15 @@ staticDir = ['static']
   tag      = "tags"
   series   = "series"
   # logs = "logs"
-[[menu.main]]
-  identifier = "logs"
-  name       = ">$ cd /log"
-  url        = "/logs/"
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = ">$ file drakkarson"
     url        = "/about/"
+[[menu.main]]
+  identifier = "logs"
+  name       = ">$ cd /logs"
+  url        = "/logs/"
 [module]
   # this is needed when you fetch the theme as a submodule to your repo.
   # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"

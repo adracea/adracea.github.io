@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "darkkarson@home",
+    "short_name": "darkkarson",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -11,7 +11,14 @@
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
-        }
+        },    {
+            "src": "/SmallTile.scale-200.png",
+            "sizes": "142x142"
+          },
+          {
+            "src": "/StoreLogo.scale-400.png",
+            "sizes": "200x200"
+          }
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
