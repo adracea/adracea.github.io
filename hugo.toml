@@ -33,7 +33,7 @@ staticDir = ['static']
   enableSharingButtons = true
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = true
-  themeColor="orange"
+  themeColor = "orange"
   [params.portrait]
     path     = "https://avatars.githubusercontent.com/u/6214663?v=4"
     alt      = "Portrait"
@@ -59,14 +59,14 @@ staticDir = ['static']
   images = [""]
 
 [taxonomies]
-  category = "log"
+  category = "blog"
   tag      = "tags"
   series   = "series"
-  logs = "logs"
+  # logs = "logs"
 [[menu.main]]
-  identifier = "log"
+  identifier = "logs"
   name       = ">$ cd /log"
-  url        = "/logs"
+  url        = "/logs/"
 [menu]
   [[menu.main]]
     identifier = "about"
