@@ -6,7 +6,7 @@ staticDir = ['static']
 [author]
   name = "Alexandru Dracea"
 [params]
-  color = "orange"
+  # color = "orange"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
@@ -67,4 +67,4 @@ staticDir = ['static']
   # this is needed when you fetch the theme as a submodule to your repo.
   # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
 [[module.imports]]
-  path = 'github.com/rhazdon/hugo-theme-hello-friend-ng'
+  path = 'github.com/adracea/hugo-theme-hello-friend-ng'
