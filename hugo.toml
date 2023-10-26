@@ -30,6 +30,7 @@ staticDir = ['static']
   enableSharingButtons = true
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = true
+  themeColor="orange"
   [params.portrait]
     path     = "https://avatars.githubusercontent.com/u/6214663?v=4"
     alt      = "Portrait"
@@ -48,7 +49,11 @@ staticDir = ['static']
     logoMark     = ">"
     logoText     = "$ cd ~"
     logoHomeLink = "/"
-  images = ["/static/favicon.ico"]
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+  images = [""]
 
 [taxonomies]
   category = "blog"
@@ -61,7 +66,7 @@ staticDir = ['static']
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = ">$ file drakkarson"
     url        = "about/"
 [module]
   # this is needed when you fetch the theme as a submodule to your repo.
