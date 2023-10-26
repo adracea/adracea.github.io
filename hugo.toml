@@ -65,7 +65,7 @@ staticDir = ['static']
   logs = "logs"
 [[menu.main]]
   identifier = "blog"
-  name       = ">$ cd /blog"
+  name       = ">$ cd /log"
   url        = "/logs"
 [menu]
   [[menu.main]]
