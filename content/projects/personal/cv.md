@@ -1,9 +1,8 @@
 ---
-title: "About me"
+title: "Crunchyview"
 draft: false
 toc: false
 images:
 tags:
 ---
 
-Nothing much, just hackin'.

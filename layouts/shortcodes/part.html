@@ -1,0 +1,10 @@
+{{ if .Get "src" }}
+
+<div class="main" align="center">
+    {{ $var := .Get "src" | string }}
+    {{- with .Site.Params.social }}
+    <div>
+        {{ partial $var . }}
+    </div>
+{{- end }}</div>
+{{ end }}

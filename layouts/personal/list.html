@@ -1,0 +1,31 @@
+{{ define "main" }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    <main class="logs">
+
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+            <div class="logs-group">
+
+                <ul class="logs-list">
+                    {{ range .Pages }}
+                        <li class="log-item">
+                            <a href="{{.Permalink}}" class="log-item-inner">
+                                <span class="log-title">{{.Title}}</span>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+    {{ partial "pagination-list.html" . }}
+    
+    {{- with .Site.Params.social }}
+        <div>
+            {{ partial "social-icons.html" . }}
+        </div>
+    {{- end }}
+    </main>
+{{ end }}

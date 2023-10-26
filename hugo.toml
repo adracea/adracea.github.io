@@ -68,19 +68,24 @@ staticDir = ['static']
   images = [""]
 
 [taxonomies]
-  category = "blog"
+  category = "categories"
   tag      = "tags"
   series   = "series"
+  # projects = "projects"
   # logs = "logs"
 [menu]
   [[menu.main]]
-    identifier = "about"
+    identifier = "whoami"
     name       = ">$ file drakkarson"
-    url        = "/about/"
+    url        = "/whoami/"
 [[menu.main]]
   identifier = "logs"
   name       = ">$ cd /logs"
   url        = "/logs/"
+[[menu.main]]
+  identifier = "projects"
+  name       = ">$ cd /projects"
+  url        = "/projects/"
 [module]
   # this is needed when you fetch the theme as a submodule to your repo.
   # replacements = "github.com/panr/hugo-theme-terminal -> themes/terminal"
