@@ -2,7 +2,7 @@ baseUrl = "https://adracea.github.io/"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 title = "drakkarson@home"
-
+googleAnalytics = 'G-Y3S54PW700'
 enableGitInfo   = false
 enableEmoji     = true
 staticDir = ['static']
