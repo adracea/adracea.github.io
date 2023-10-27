@@ -3,7 +3,7 @@ title: "Crunchyview"
 draft: false
 toc: false
 images:
-date: "2023-10-28"
+date: "2023-10-27T22:09:28+03:00"
 tags:
 ---
 
